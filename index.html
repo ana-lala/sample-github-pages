@@ -1,29 +1,17 @@
 <!DOCTYPE html>
-<html>
-<style>
-#container {
-  width: 400px;
-  height: 400px;
-  position: relative;
-  background: yellow;
-}
-#animate {
-  width: 50px;
-  height: 50px;
-  position: absolute;
-  background-color: red;
-}
-</style>
-<body>
-
-<p><button onclick="myMove()">Click Me</button></p> 
-
-<div id ="container">
-  <div id ="animate"></div>
-</div>
-
-<script src="animar.js"> </script>
-
-</body>
+<html> 
+  <head>
+    <title>Processing.JS inside Webpages: Template</title> 
+  </head>
+  <body>
+	<!--This draws the canvas on the webpage -->
+    <canvas id="mycanvas"></canvas> 
+  </body>
+ 
+  <!-- Include the processing.js library -->
+  <!-- See https://khanacademy.zendesk.com/hc/en-us/articles/202260404-What-parts-of-ProcessingJS-does-Khan-Academy-support- for differences -->
+  <script src="processing.min.js"></script> 
+  <script src="animar.js">
+  
+  </script>
 </html>
-
